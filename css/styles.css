@@ -26,4 +26,5 @@ h3 {
 /***************************ID SELECTORS***************/
 #my-image{
     border-radius: 100%;
+    background-color: white;
 }
