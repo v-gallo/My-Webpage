@@ -1,7 +1,42 @@
 /*************************TAG Selectors*******************/
 body {
-    background-color: blue;
+    margin: 0;
 }
-/***************************CLASS SELECTORS***************/
 
+
+
+h1 {
+    margin-top: 0;
+}
+
+/***************************CLASS SELECTORS***************/
+.top-container{
+    background-color: rgb(200, 243, 243);
+    /* border: solid;
+    border-width: 10px;
+    height: 200px;
+    padding: 20px;
+    width: 200px; */
+}
+
+.middle-container{
+    background-color: red;  
+    /* border: solid;
+    border-width: 20px;
+    height: 200px;
+    margin-left: 260px;
+    width: 200px; */
+}
+.bottom-container{
+    background-color: blue;
+    /* border: solid;
+    border-width: 10px;
+    height: 200px;
+    margin-left: 500px;
+    width: 200px; */
+}
+
+.pro {
+    text-decoration: underline;
+}
 /***************************ID SELECTORS***************/
