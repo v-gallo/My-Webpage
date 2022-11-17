@@ -1,17 +1,28 @@
 /*************************TAG Selectors*******************/
 body {
     margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
 }
-
-
 
 h1 {
     margin-top: 0;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font: 'Montserrat', sans-serif;
 }
 
 /***************************CLASS SELECTORS***************/
-.top-container{
+.top-container {
     background-color: rgb(200, 243, 243);
+    position: relative;
+    padding-top: 100px;
     /* border: solid;
     border-width: 10px;
     height: 200px;
@@ -19,24 +30,29 @@ h1 {
     width: 200px; */
 }
 
-.middle-container{
-    background-color: red;  
-    /* border: solid;
-    border-width: 20px;
-    height: 200px;
-    margin-left: 260px;
-    width: 200px; */
+.middle-container {
+
 }
-.bottom-container{
-    background-color: blue;
-    /* border: solid;
-    border-width: 10px;
-    height: 200px;
-    margin-left: 500px;
-    width: 200px; */
+
+.bottom-container {
+
 }
 
 .pro {
     text-decoration: underline;
 }
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+
 /***************************ID SELECTORS***************/
